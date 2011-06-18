@@ -1,0 +1,12 @@
+imapsynchronizer
+jeff@freemedsoftware.org
+========================
+
+IMAP sync tool, for synchronizing IMAP mail between two servers. Has special
+logic for dealing with Exchange (ugh) servers, if needed.
+
+Build with "mvn package"
+
+Run with "java -jar target/imapsynchronizer-VERSION.jar", options are
+explained when none are given.
+
